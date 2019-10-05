@@ -10,13 +10,12 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
  * Class User
  * @package App
  *
- * @property int $id variable
+ * @property int $id
  * @property string $name
  * @property string $email
  * @property float $price
- * @property Team $team
  */
-class User extends Authenticatable
+class Team extends Authenticatable
 {
     use Notifiable;
 
